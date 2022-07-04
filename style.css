@@ -6,8 +6,13 @@ body{
 h1{
   font-size: 50px;
 }
+h2{
+  font-size: 40px;
+}
+
 .orange-color{
   color: orange;
+  font-size: 21px;
 }
 p{
   color: rgb(0 0 0 / 49%);
@@ -48,4 +53,28 @@ p{
 }
 p.dream-big-p {
   padding-right: 70px;
+}
+
+/* exercise section-------- */
+.experience-item{
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 10px;
+  box-shadow: 10px 10px 40px gray;
+  padding: 20px;
+}
+.exercise-area{
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+#full-stack-developer{
+  border-left: 7px solid #FF6347;
+}
+#baby-stack-developer{
+  border-left: 7px solid green;
+}
+footer{
+  text-align: center;
 }
